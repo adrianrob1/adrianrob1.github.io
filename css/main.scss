@@ -492,7 +492,7 @@ footer {
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em;
-    font-size: var(--fs-h3);
+    font-size: var(--fs-body);
 
     a {
         color: inherit;
@@ -518,6 +518,7 @@ footer {
 
         a {
             padding: .5em;
+            font-size: var(--fs-h2);
         }
     }
 }
