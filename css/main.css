@@ -446,7 +446,7 @@ header {
 
 /* About me */
 .about-me {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -508,7 +508,8 @@ header {
   display: grid;
   -ms-grid-columns: (minmax(240px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  margin: 0, auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .portfolio .portfolio__item {
