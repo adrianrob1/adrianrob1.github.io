@@ -399,10 +399,11 @@ header {
             max-width: 1200px;
             margin-left: auto;
             margin-right: auto;
+            gap: 1em;
+        }
 
-            .interest {
-                margin-left: 2em;
-            }
+        .interests > * {
+            flex-basis: 100%;
         }
     }
 }

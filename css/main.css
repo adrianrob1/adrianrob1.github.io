@@ -436,9 +436,11 @@ header {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    gap: 1em;
   }
-  .my-interests .interests .interest {
-    margin-left: 2em;
+  .my-interests .interests > * {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
   }
 }
 
