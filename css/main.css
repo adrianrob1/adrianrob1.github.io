@@ -209,12 +209,12 @@ header {
 }
 
 .nav-toggle {
-  padding: .5em;
+  padding: .7em;
   background: transparent;
   border: 0;
   position: absolute;
-  right: 1em;
-  top: 1em;
+  right: .5em;
+  top: .5em;
   z-index: 1000;
 }
 
@@ -281,6 +281,10 @@ header {
 }
 
 @media only screen and (min-width: 768px) {
+  .nav-open .nav {
+    background: none;
+    color: var(--clr-dark);
+  }
   header {
     display: -ms-grid;
     display: grid;
@@ -289,9 +293,9 @@ header {
     -webkit-box-pack: unset;
         -ms-flex-pack: unset;
             justify-content: unset;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .nav-toggle {
     display: none;

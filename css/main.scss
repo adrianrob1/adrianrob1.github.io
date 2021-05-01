@@ -197,12 +197,12 @@ header {
 }
 
 .nav-toggle {
-    padding: .5em;
+    padding: .7em;
     background: transparent;
     border: 0;
     position: absolute;
-    right: 1em;
-    top: 1em;
+    right: .5em;
+    top: .5em;
     z-index: 1000;
 
     &:hover {
@@ -261,11 +261,16 @@ header {
 
 @media only screen and (min-width: 768px) {
 
+    .nav-open .nav {
+        background: none;
+        color: var(--clr-dark);
+    }
+
     header {
         display: grid;
         grid-template-columns: 180px auto;
         justify-content: unset;
-        align-items: baseline;
+        align-items: center;
     }
     
     .nav-toggle {
