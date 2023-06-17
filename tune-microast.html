@@ -41,18 +41,35 @@
 
     <!-- Introduction -->
     <section class="intro">
-        <h1 class="section__title">The title <strong>of my project</strong></h1>
-        <p class="section__subtitle">A short subtitle</p>
-        <img src="img/Rectangle 3-1@2x.png" alt="A picture of my project">
+        <h1 class="section__title">Arbitratry<strong>Style Transfer</strong></h1>
+        <p class="section__subtitle">Course Project, Computer Vision</p>
+        <img src="img/microast-tuning.png" alt="Project results image">
     </section>
 
     <div class="portfolio-item-individual">
-        <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+        <h2>Abstract</h2>
+        <p>
+        Our group's aim was to study <a href="https://github.com/EndyWon/MicroAST">MicroAST</a>'s architecture, analyze its weak points and build on top of it a more robust model by tweaking its architecture, loss function, and training on multiple datasets. We also developed a Web Application and Server for model deployment.
+        Our contributions are: 
+          <ul>
+            <li>Introduced PyTorch Lighting for advanced features like Automatic Mixed Precision and Logging (on WandB)</li>
+            <li>Support for LAION and FFHQ datasets</li>
+            <li>Experimented with multiple losses using L1 and Total Variation</li>
+            <li>Bicubic upsampling with a bigger kernel in the last convolutional layer of the decoder for better output image quality</li>
+            <li>Ionic App client and Flask server for model testing</li>
+          </ul>
+        </p>
 
-        <img src="img/project-picture.png" alt="Picture of web page">
+        <img src="img/micro-ast-details.png" alt="Picture of some projects results"><h5>Examples of model outputs.</h5>
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?</p>
-        <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+        <h2>Results</h2>
+        <p>
+          We improved quality and stability of the model's outputs, especially on Faces and Artistic Styles which couldn't be found in the WikiArt dataset used by the authors of the original model.
+        </p>
+
+        <p>The project was developed using <strong>Python</strong> and <strong>PyTorch</strong> for the model, <strong>Flask</strong> for the web server and <strong>Ionic</strong> for the client.</p>
+        
+        <p>More details can be found in the <a href="https://github.com/gzarbameli/MicroAST-CV/blob/main/project-report.pdf">Project Presentation</a> and the <a href="https://wandb.ai/sapienza-ml/microAST/reports/MicroAST-Experiments--VmlldzozNTc0MTcw">Weights & Biases Report</a>.</p>
     </div>
 
 

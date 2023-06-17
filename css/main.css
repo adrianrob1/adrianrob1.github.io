@@ -361,7 +361,8 @@ header {
     margin: 0 auto;
     -webkit-column-gap: 1em;
             column-gap: 1em;
-        grid-template-areas: "img title" "img subtitle";
+        grid-template-areas: "img title"
+ "img subtitle";
     -ms-grid-columns: min-content max-content;
         grid-template-columns: -webkit-min-content -webkit-max-content;
         grid-template-columns: min-content max-content;
@@ -461,7 +462,9 @@ header {
     display: grid;
     -ms-grid-columns: 1fr 200px;
         grid-template-columns: 1fr 200px;
-        grid-template-areas: "title img" "subtitle img" "text img";
+        grid-template-areas: "title img"
+ "subtitle img"
+ "text img";
     -webkit-column-gap: 2em;
             column-gap: 2em;
   }
@@ -581,6 +584,24 @@ footer .social-list a {
 
 .portfolio-item-individual p {
   max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-item-individual ul {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-item-individual h5 {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.portfolio-item-individual ol {
+  max-width: 640px;
   margin-left: auto;
   margin-right: auto;
 }

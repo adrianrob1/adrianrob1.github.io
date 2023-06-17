@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Imported Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+    
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Roboto+Mono:300,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <strong>adrian<span>rob</span></strong>
+            </a>
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#projects" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#contacts" class="nav__link">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+        <h1 class="section__title">Ear <strong>Recognition</strong></h1>
+        <p class="section__subtitle">Course Project, Biometric Systems</p>
+        <img src="img/biometrics.png" alt="A picture of ear detections performed by finetuned yolov5">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <h2>Abstract</h2>
+        <p>Biometric Systems make use of human features for identification purposes. One
+          such feature is the ear, which greatly varies across individuals, it’s non-invasive to capture because it only requires a photo, and it doesn’t change much after the first 8 years of life and before 70. All these characteristics make the ear very appealing to biometric experts and it’s growing in popularity in the recent years. <br><br>
+          Our objective is to build a system which performs ear recognition using Neural Networks and deploy it on an Android mobile application using Tensorflow Lite. <br><br>
+          The pipeline of the system is:
+          <ol>
+            <li>Ear Detection</li>
+            <li>Feature Extraction</li>
+            <li>Matching</li>
+            <li>Decision</li>
+          </ol>
+        </p>
+        <p>
+          We used Python and various libraries to build, train and evaluate our models.
+          To improve the performance and to fairly evaluate the models, we used multiple
+          datasets.
+        </p>
+
+        <img src="img/biometrics-details.png" alt="Picture of model evaluation"><h5>Evaluation results for the Ear Recognition task on cropped AMI.</h5>
+
+        <h2>Results</h2>
+
+        <p>
+          For the detection part, YoloV5 is a very powerful neural network even when trained for a low number of epochs, and even considering its tiniest implementation. We decided to use the nano version after many ‘trial and error’ trainings, going down from the medium-sized, which was too heavy for a phone to be handled without stuttering. <br><br>
+          Our objective was to build an entire biometric system and implement it for a mobile device, and for this reason it couldn’t easily reach the higher performance of the current state of the art models. <br><br>
+          Talking about the performance of the app, adding the detection for the motion led to a nice optimization, because it heavily reduced both lag issues and blurred captures. We are satisfied about the experience of the app because it requires the user only to tap on the option and to put the device in front of the ear, simulating the behavior of a “Face ID” unlock, but for the ear. <br><br>
+          Starting from pre-trained models was a great choice, even though it wasn’t as easy to implement as initially thought, since it still required great attention on data augmentation and finetuning of the models. We are overall satisfied with the system we were able to build, and the experience acquired during its design and implementation.
+        </p>
+
+        <p>More details can be found in the <a href="https://github.com/adrianrob1/EarRecognition/blob/main/EarVerificationReport.pdf">Project Report</a>.</p>
+    </div>
+
+
+    <!-- Footer -->
+    <footer id="contacts">
+        <a href="mailto:robertadrian.minut@gmail.com" class="footer-link">robertadrian.minut@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a href="https://github.com/adrianrob1">
+                <i class="fab fa-github"></i>
+            </a>
+            </li>
+            
+            <li class="social-list__item"><a href="https://www.linkedin.com/in/adrian-robert-minut-71bb73146/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>

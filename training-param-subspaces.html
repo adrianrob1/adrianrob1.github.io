@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Imported Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+    
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Roboto+Mono:300,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <strong>adrian<span>rob</span></strong>
+            </a>
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#projects" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#contacts" class="nav__link">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+        <h1 class="section__title">Training on <strong>Parameter Subspaces</strong></h1>
+        <p class="section__subtitle">Course Project, Deep Learning and Applied AI</p>
+        <img src="img/train-param-subspaces.png" alt="A picture of my project">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <h2>Abstract</h2>
+        <p>By fixing the architecture and the dataset we obtain the objective landscape for the optimization process, which is a space with 'D' dimensions, where 'D' is the number of parameters of our model. <br><br>
+        We can take slices of this space and train our model in a subspace of 'd' dimensions. By doing this, the actual parameters will be in the subspace, from which we can project with a fixed random projection matrix to the full model parameters' space.
+        In this project we will see the performance of these networks.</p>
+
+        <img src="img/train-param-subspaces-details.png" alt="Performance comparisons image"><h5>Examples of performance comparisons.</h5>
+
+        <h2>Results</h2>
+        <p>Through these experiments a few limitations of this family of models were uncovered: high VRAM usage, high computational cost, lower performance. They have major implications in terms of the applicability of these models, since the only practical advantage is that by storing the seed of the random generation of P and the W parameters we can compress the model in storage. <br><br>
+        
+        We would still be able to efficiently perform the inference operations by calculating once and for all K = PW, but the resulting model would have lower performance than a model which was originally trained without projection. Also, training a model without projection is more cost-effective in terms of computational power. <br><br>
+
+        Although it’s not the kind of model that we could deploy in production, the theoretical results are interesting. We can explore subspaces to infer the difficulty of a task based on the dataset and the model architecture, and make comparisons by seing how efficient they are in the use of their parameters. <br><br>
+
+        We can also test different values of lower dimensions for each layer of the network and see the impact on the training process. Depending on the amount of parameters involved, we would need to change the projection method by sacrificing some model performance, but since it may not be the focus of the study it may still be worth it for the investigation of model architectures.
+          </p>
+        <p>More details can be found in the <a href="https://github.com/adrianrob1/Deep-Learning-AI-Project/blob/main/Report.pdf">Project Report</a> and the <a href="https://wandb.ai/sapienza-ml/MNIST-CNN/reports/Training-on-Parameters-Subspaces--VmlldzozMzczMjY3">Weights & Biases Report</a>.</p>
+    </div>
+
+
+    <!-- Footer -->
+    <footer id="contacts">
+        <a href="mailto:robertadrian.minut@gmail.com" class="footer-link">robertadrian.minut@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a href="https://github.com/adrianrob1">
+                <i class="fab fa-github"></i>
+            </a>
+            </li>
+            
+            <li class="social-list__item"><a href="https://www.linkedin.com/in/adrian-robert-minut-71bb73146/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>
