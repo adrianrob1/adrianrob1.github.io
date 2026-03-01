@@ -1,0 +1,25 @@
+# Adrian Robert Minut — Academic Website
+
+> Personal research site for Adrian Robert Minut, CS PhD student at Sapienza University of Rome.
+
+## Site Structure
+
+- `/` — Bio and contact information
+- `/publications/` — Peer-reviewed publications and preprints
+- `/posts/` — Research blog with technical posts on LLMs, model merging, and uncertainty estimation
+
+## Research Focus
+
+- Model merging for Large Language Models
+- Uncertainty estimation in LLMs
+- Variational inference
+
+## Key Publications
+
+- *Spilled Energy in Large Language Models* — ICLR 2026
+- *MERGE³: Efficient Evolutionary Merging on Consumer-grade GPUs* — ICML 2025
+- *Mergenetic: a Simple Evolutionary Model Merging Library* — ACL 2025
+
+## Contact
+
+minut@di.uniroma1.it
