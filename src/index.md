@@ -13,15 +13,14 @@ My research focuses on Large Language Models (LLMs), specifically exploring **mo
 
 ## Background
 
-My background is originally in Software Engineering, which translates well to writing scalable code for AI research. In 2025, I was a research intern at **RIKEN** in Japan, where I studied variational learning. This experience provided a rigorous theoretical framework that deepened my understanding of model merging and uncertainty estimation, directly informing how I design efficient and robust methods today.
+I have always been driven by a desire to automate tasks and optimize processes, an inclination that led me to explore electronics and programming from a young age. This path began with a high school focus on Electronics, followed by a Bachelor’s degree in Computer Engineering. Towards the end of my undergraduate studies, I began exploring Machine Learning, fascinated by the prospect of machines discovering the "hidden rules" of the world autonomously rather than relying on manually defined logic.
+
+Driven by this passion, I enrolled in a Master’s in Artificial Intelligence. As I built increasingly complex models, the emergence of LLMs like ChatGPT pushed me to investigate the field further through research projects, eventually leading me to start a PhD. However, my excitement was often tempered by frustration over the inherent inefficiency and lack of interpretability in deep learning models. This directed my research toward novel methods in model merging and hallucination detection to push the state of the art.
+
+In 2025, I joined the Adaptive Bayesian Intelligence team at RIKEN AIP in Tokyo as a research intern. While I had touched upon the elegance of Bayesian Inference during my Master's, I had previously set it aside due to its perceived intractability for deep learning. My time at RIKEN allowed me to deep dive into variational learning, providing a rigorous theoretical framework that unified my previous work. I now view my research through this lens, using it to design more efficient and robust methods, and I am eager to continue this trajectory in my studies.
 
 ---
 
-## Beyond the Lab
-
-When I'm not running experiments, I play a lot of rogue-like and souls-like games. Turns out, figuring out punishing game mechanics isn't all that different from wrestling with search and optimization problems in AI.
-
----
 
 ## Contact
 
