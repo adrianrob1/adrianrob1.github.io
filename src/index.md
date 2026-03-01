@@ -3,7 +3,7 @@ layout: base.njk
 title: Adrian Robert Minut
 ---
 
-# Adrian Robert Minut
+# About Me
 
 Hi, I'm Adrian. I'm a CS PhD student at Sapienza University of Rome, co-advised by Prof. Emanuele Rodolà (PI of the [GLADIA Lab](https://gladia.di.uniroma1.it/)) and Prof. Iacopo Masi (PI of the [OmnAI Lab](https://omnai.di.uniroma1.it/)).
 
