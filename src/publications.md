@@ -21,7 +21,7 @@ Adrian Robert Minut, Hazem Dewidar, Iacopo Masi.
 
 ## 2025
 
-### $\text{MERGE}^3$: Efficient Evolutionary Merging on Consumer-grade GPUs
+### MERGE$^3$: Efficient Evolutionary Merging on Consumer-grade GPUs
 
 Tommaso Mencattini, Adrian Robert Minut, Donato Crisostomi, Andrea Santilli, Emanuele Rodolà.  
 *ICML 2025*  
