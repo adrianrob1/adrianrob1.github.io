@@ -21,18 +21,20 @@ Adrian Robert Minut, Hazem Dewidar, Iacopo Masi.
 
 ## 2025
 
-### MERGE$^3$: Efficient Evolutionary Merging on Consumer-grade GPUs
-
-Tommaso Mencattini\*, Adrian Robert Minut\*, Donato Crisostomi, Andrea Santilli, Emanuele Rodolà.  
-*ICML 2025*  
-[Paper](https://arxiv.org/abs/2502.10436) | [Code](https://github.com/tommasomncttn/merge3)
-
 ### Mergenetic: a Simple Evolutionary Model Merging Library
 
 Adrian Robert Minut\*, Tommaso Mencattini\*, Andrea Santilli, Donato Crisostomi, Emanuele Rodolà.  
 *ACL 2025 (System Demonstrations)*  
 [Paper](https://arxiv.org/abs/2505.11427) | [Library](https://github.com/tommasomncttn/mergenetic)
 
+### MERGE$^3$: Efficient Evolutionary Merging on Consumer-grade GPUs
+
+Tommaso Mencattini\*, Adrian Robert Minut\*, Donato Crisostomi, Andrea Santilli, Emanuele Rodolà.  
+*ICML 2025*  
+[Paper](https://arxiv.org/abs/2502.10436) | [Code](https://github.com/tommasomncttn/merge3)
+
 ---
+
+\* denotes equal contribution.
 
 For a complete and up-to-date list of citations, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=BLmHVIwAAAAJ).
