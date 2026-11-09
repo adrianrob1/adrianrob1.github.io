@@ -16,6 +16,10 @@
 
 ## Key Publications
 
+- *SOAP-Bubbles: Structured Weight Uncertainty for Neural Networks* — NeurIPS 2026
+- *Zero-Shot Quantization via Weight-Space Arithmetic* — NeurIPS 2026
+- *Steering Vectors are an Adversarial Attack Surface* — EMNLP 2026 Findings
+- *Multi-objective Evolutionary Merging Enables Efficient Reasoning Models* — COLM 2026
 - *Spilled Energy in Large Language Models* — ICLR 2026
 - *MERGE³: Efficient Evolutionary Merging on Consumer-grade GPUs* — ICML 2025
 - *Mergenetic: a Simple Evolutionary Model Merging Library* — ACL 2025
