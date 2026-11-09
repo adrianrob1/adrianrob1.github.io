@@ -10,9 +10,10 @@
 
 ## Research Focus
 
-- Model merging for Large Language Models
-- Uncertainty estimation in LLMs
-- Variational inference
+- Adapting language models after training: model merging, weight-difference transfer, activation steering
+- What training should retain beyond the final weights, through variational learning and Bayesian inference
+- Uncertainty estimation and what models know about their own knowledge
+- Reuse and exchange of openly released models, and the checks that make it safe
 
 ## Key Publications
 
